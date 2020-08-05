@@ -1,5 +1,12 @@
 from django.http import HttpResponse
+from django.views import View
 
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the api index.")
+class ProductView(View):
+    def get(self, request):
+        # <view logic>
+        return HttpResponse('result')
+
+    def post(self, request):
+        # <view logic>
+        return HttpResponse('result')
