@@ -8,3 +8,8 @@ Create a virtual environment and install packages from requirements.txt file
 ```
 pip install requirements.txt
 ```
+
+## PENDING
+- AWS Deployment
+- Change to Postgres
+- Add more tests
